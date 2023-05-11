@@ -27,30 +27,3 @@ void getArrayEven(int collection)
 }
 
 getArrayEven(numberEntered);
-
-
-
-
-
-
-
-// int[] array = new int[numberEntered];
-// void getArrayEven(int[] collection)
-// {
-//     int length = collection.Length;
-//     int numberFalse = 0;
-//     for (int i = 0; i < length; i++)
-//     {
-//         if ((collection[i] % 2) == numberFalse)
-//         {
-//             if (i == length - 1) 
-//             {
-//                 System.Console.Write(collection[i]);
-//                 break;
-//             }
-//             System.Console.Write($"{collection[i]}, ");
-//         }
-//     }
-// }
-
-// getArrayEven(array);

@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+## MY IGNORE
+obj/Debug/net7.0
+
 # User-specific files
 *.rsuser
 *.suo

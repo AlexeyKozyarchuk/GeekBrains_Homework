@@ -4,6 +4,7 @@
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125          */
 
+
 void getNumbersCup()
 {
     System.Console.WriteLine("Здравствуйте, эта программа покажет"

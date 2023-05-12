@@ -20,8 +20,9 @@ void getSumOfDigitsInNumber()
     System.Console.WriteLine(length);
     for (int i = 0; i < length; i++)
     {
-        int count = Convert.ToInt32(numberEntered[i]);
-        sum += count;
+        char count = Convert.ToChar(numberEntered[i]);
+        int bar = (int)Char.GetNumericValue(count);
+        sum += bar;
     }
     System.Console.WriteLine(sum);
 }

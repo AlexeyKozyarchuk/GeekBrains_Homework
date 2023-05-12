@@ -5,8 +5,6 @@
 82 -> 10
 9012 -> 12        */
 
-//НЕ МОГУ ПОНЯТЬ ПОЧЕМУ ОШИБКА !!!
-
 void getSumOfDigitsInNumber()
 {
     System.Console.WriteLine("Здравствуйте, эта программа найдёт сумму"

@@ -20,11 +20,12 @@ void PrintArray(int[] collection)
 {
     int length = collection.Length;
 
+    System.Console.Write("[");
     for (int i = 0; i < length; i++)
     {
         if (i == length - 1)
         {
-            System.Console.Write($"{collection[i]}");
+            System.Console.Write($"{collection[i]}]");
             break;
         }
         System.Console.Write($"{collection[i]}, ");

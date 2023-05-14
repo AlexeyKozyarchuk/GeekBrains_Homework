@@ -13,9 +13,13 @@ void isPalindrome()
     string numberEntered = Console.ReadLine();
     int length = numberEntered.Length;
     int index = -1;
-        if (numberEntered[index + 1] == numberEntered[length - 1]);
-        if (numberEntered[index + 1] == numberEntered[length - 1]) System.Console.WriteLine($"\n{numberEntered} -> да");
-        else System.Console.WriteLine($"\n{numberEntered} -> нет");
+
+        if (numberEntered[index + 1] != numberEntered[length - 1]) System.Console.WriteLine($"\n{numberEntered} -> нет");
+        else
+        {
+                if (numberEntered[index + 2] != numberEntered[length - 2]) System.Console.WriteLine($"\n{numberEntered} -> нет");
+                else System.Console.WriteLine($"\n{numberEntered} -> да");
+        }
 }
 
 isPalindrome();
